@@ -8,7 +8,7 @@ import Users from "../screens/Users";
 
 export default function Routes() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator headerMode="none">
       <Stack.Screen name="Home" component={Home} options={{}} />
       <Stack.Screen
         name="Users"
